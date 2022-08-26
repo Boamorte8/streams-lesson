@@ -45,6 +45,8 @@ streamConcat.write('A');
 streamConcat.write('B');
 streamConcat.write('C');
 
+// Special case: if you call cork() x times you MUST call uncork() same times
+// if not will not work except if you call end() function
 // streamConcat.uncork();
 // streamConcat.uncork();
 streamConcat.end();
