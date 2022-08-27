@@ -30,7 +30,7 @@
 
 ## About The Project
 
-The objective of the project is to provide a base project with the minimum necessary tools to develop a project based on Node.JS.
+The objective of the project is to provide examples for Event emitter, buffers and streams in Node.JS
 
 <!-- BUILT WITH -->
 
@@ -59,6 +59,10 @@ After creating the repository and cloning it locally
 ```bash
 npm i
 ```
+
+## Docs
+
+- [Backpressure](https://nodejs.org/es/docs/guides/backpressuring-in-streams/)
 
 <!-- LICENSE -->
 
